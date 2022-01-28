@@ -1,0 +1,33 @@
+
+.lego{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:5px;
+    font:bold rgb(83, 34, 196);
+    border: 5px rgb(255, 0, 149) dotted;
+}
+
+ .pink {
+   background-color:pink;  
+   grid-row:1/3;
+   grid-column: 1/3;
+}
+
+.yellow {
+   background-color:rgb(229, 243, 101);  
+    grid-row:3/5;
+    grid-column: 3/5;
+ }
+
+ .green {
+   background-color:rgb(192, 255, 195);  
+    grid-row:3/5;
+    grid-column: 1/3;
+ }
+
+ .blue {
+   background-color:rgb(69, 179, 230);  
+    grid-row:1/3;
+    grid-column: 3/5;
+ }

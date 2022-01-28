@@ -1,0 +1,22 @@
+
+.lego{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap:5px;
+    
+  
+  grid-template-areas: 
+  "yellow yellow pink pink"
+  "yellow yellow pink pink"
+  "green green blue blue"
+  "green green blue blue";
+
+}
+
+.pink { grid-area:pink;background-color: rgb(233, 122, 196);}
+
+.yellow { grid-area:yellow;background-color: rgb(243, 242, 152);}
+.green { grid-area:green;background-color: chartreuse;}
+.blue { grid-area:blue;background-color: cornflowerblue;}
+
